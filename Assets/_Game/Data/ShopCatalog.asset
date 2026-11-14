@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eb38d909c7d50741bc6f641fc4cff51, type: 3}
+  m_Name: ShopCatalog
+  m_EditorClassIdentifier: 
+  products:
+  - id: starter.pack
+    kind: 1
+    title: Starter pack
+    description: 1,000 coins and a booster of each
+    fallbackPriceLabel: $4.99
+    badge: One time
+    coins: 1000
+    items:
+    - id: booster.hint
+      count: 5
+    - id: booster.shuffle
+      count: 3
+    - id: booster.remove
+      count: 3
+    - id: booster.extra_taps
+      count: 3
+    entitlement: starter_pack
+  - id: coins.small
+    kind: 0
+    title: Pile of coins
+    description: 500 coins
+    fallbackPriceLabel: $0.99
+    badge: 
+    coins: 500
+    items: []
+    entitlement: 
+  - id: coins.medium
+    kind: 0
+    title: Bag of coins
+    description: 1,400 coins
+    fallbackPriceLabel: $2.99
+    badge: Popular
+    coins: 1400
+    items: []
+    entitlement: 
+  - id: coins.large
+    kind: 0
+    title: Case of coins
+    description: 5,000 coins
+    fallbackPriceLabel: $7.99
+    badge: Best value
+    coins: 5000
+    items: []
+    entitlement: 
+  - id: boosters.pack
+    kind: 0
+    title: Booster pack
+    description: 8 hints, 5 shuffles, 5 removes
+    fallbackPriceLabel: $2.99
+    badge: 
+    coins: 0
+    items:
+    - id: booster.hint
+      count: 8
+    - id: booster.shuffle
+      count: 5
+    - id: booster.remove
+      count: 5
+    entitlement: 
+  - id: taps.pack
+    kind: 0
+    title: Rescue pack
+    description: '10 free continues: +1 space or +time'
+    fallbackPriceLabel: $1.99
+    badge: 
+    coins: 0
+    items:
+    - id: booster.extra_taps
+      count: 10
+    entitlement: 

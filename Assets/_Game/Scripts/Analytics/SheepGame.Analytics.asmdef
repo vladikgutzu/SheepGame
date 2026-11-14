@@ -1,0 +1,22 @@
+{
+    "name": "SheepGame.Analytics",
+    "rootNamespace": "SheepGame.Analytics",
+    "references": [
+        "GameAnalyticsSDK"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.gameanalytics.sdk",
+            "expression": "7.0.0",
+            "define": "SHEEP_GAMEANALYTICS"
+        }
+    ],
+    "noEngineReferences": false
+}

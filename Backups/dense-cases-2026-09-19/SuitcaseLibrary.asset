@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94b5d8e7ae677b54081cfc33efb2b43a, type: 3}
+  m_Name: SuitcaseLibrary
+  m_EditorClassIdentifier: 
+  variants:
+  - {fileID: 4929643192854847232, guid: ca3a639294a523c498f9a0b2f83ee84c, type: 3}
+  - {fileID: 8201423044291070717, guid: bf7b694a2474828448941e3d3c272aeb, type: 3}
+  - {fileID: 8235308895847432018, guid: a0565f3f30cd4154da806af809a4d321, type: 3}
+  - {fileID: 667664644040688364, guid: 0086df15abbab724fa320e8cc083e684, type: 3}
+  - {fileID: 4264805770015002296, guid: e0443ec87fc99f54f80ed0fd60c4e2c7, type: 3}
+  - {fileID: 9189116828914991663, guid: a880bf80b6a907240bea2069838b8db3, type: 3}
+  variantCells: 010000000100000001000000010000000100000002000000
+  variantYaw:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 90
+  variantModelScale:
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  - {x: 1, y: 1, z: 1}
+  variantBodyMaterial:
+  - Case_Koper
+  - Case_Koper
+  - Case_Koper
+  - Case_Koper
+  - Case_Koper
+  - Case_2squareLuggage
+  palette:
+  - {r: 0.18431373, g: 0.5019608, b: 0.92941177, a: 1}
+  - {r: 0.92156863, g: 0.23137255, b: 0.23137255, a: 1}
+  - {r: 0.23529412, g: 0.76862746, b: 0.3529412, a: 1}
+  - {r: 1, g: 0.7764706, b: 0.101960786, a: 1}
+  - {r: 0.60784316, g: 0.31764707, b: 0.8784314, a: 1}
+  - {r: 1, g: 0.43529412, b: 0.78431374, a: 1}

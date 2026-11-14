@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b2bcb2934da384894f5fba31b86235, type: 3}
+  m_Name: EconomyConfig
+  m_EditorClassIdentifier: 
+  startingCoins: 150
+  startingShuffles: 0
+  startingRemoves: 0
+  startingHints: 0
+  coinsPerLevel: 20
+  firstClearBonus: 30
+  coinsPerUnusedTap: 2
+  shufflePrice: 120
+  removePrice: 150
+  hintPrice: 60
+  extraTapsAmount: 5
+  continuePrice: 100
+  continuePriceStep: 2
+  shuffleRescueTaps: 3
+  shuffleRescuePriceScale: 1.6
+  earlySlack: 0.55
+  lateSlack: 0.22
+  slackTightensBy: 30
+  minimumSlack: 4
+  earlyFill: 0.75
+  lateFill: 1
+  fillPacksOver: 12
+  earlyLongShare: 0.15
+  lateLongShare: 0.4
+  longShareGrowsOver: 28
+  timeRushFirstLevel: 25
+  timeRushEvery: 5
+  secondsPerPiece: 1.6
+  minimumSeconds: 20
+  extraSecondsAmount: 15
+  coinsPerUnusedSecond: 1

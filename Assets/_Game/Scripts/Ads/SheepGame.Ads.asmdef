@@ -1,0 +1,22 @@
+{
+    "name": "SheepGame.Ads",
+    "rootNamespace": "SheepGame.Ads",
+    "references": [
+        "Unity.LevelPlay"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.services.levelplay",
+            "expression": "8.0.0",
+            "define": "SHEEP_LEVELPLAY"
+        }
+    ],
+    "noEngineReferences": false
+}

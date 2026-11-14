@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41b632220e14ed7419569fbd6fa0f88a, type: 3}
+  m_Name: Level_H05
+  m_EditorClassIdentifier: Assembly-CSharp::SheepGame.Core.LevelData
+  gridWidth: 5
+  gridHeight: 3
+  pieces:
+  - position: {x: 0, y: 2}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 1
+  - position: {x: 1, y: 2}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 2
+  - position: {x: 2, y: 2}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 0
+  - position: {x: 3, y: 2}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 2
+  - position: {x: 4, y: 2}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 1
+  - position: {x: 0, y: 1}
+    direction: 2
+    variantIndex: 0
+    cells: 1
+    colour: 3
+  - position: {x: 1, y: 1}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 3
+  - position: {x: 2, y: 1}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 2
+  - position: {x: 3, y: 1}
+    direction: 0
+    variantIndex: 0
+    cells: 1
+    colour: 0
+  - position: {x: 4, y: 1}
+    direction: 3
+    variantIndex: 0
+    cells: 1
+    colour: 1
+  - position: {x: 0, y: 0}
+    direction: 1
+    variantIndex: 0
+    cells: 1
+    colour: 1
+  - position: {x: 1, y: 0}
+    direction: 1
+    variantIndex: 0
+    cells: 1
+    colour: 1
+  - position: {x: 2, y: 0}
+    direction: 1
+    variantIndex: 0
+    cells: 1
+    colour: 0
+  - position: {x: 3, y: 0}
+    direction: 1
+    variantIndex: 0
+    cells: 1
+    colour: 3
+  - position: {x: 4, y: 0}
+    direction: 1
+    variantIndex: 0
+    cells: 1
+    colour: 1
+  tapBudget: 0
+  mode: 1
+  frameOnPieces: 0
+  tutorialHints: 0
+  coloured: 1
+  carts: 0100000003000000020000000000000001000000
+  cartCapacity: 3
+  queueSlots: 5
+  tutorialHand: 0
